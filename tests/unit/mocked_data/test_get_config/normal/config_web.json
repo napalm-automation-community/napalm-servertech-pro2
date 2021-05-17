@@ -1,0 +1,13 @@
+{
+  "ca_certificate": "disabled",
+  "http": "enabled",
+  "http_port": 80,
+  "https": "enabled",
+  "https_port": 443,
+  "json_api_web_service": "enabled",
+  "log_entries_per_page": 100,
+  "session_timeout": 5,
+  "server_certificate": "disabled",
+  "server_certificate_passphrase_secure": "",
+  "spm_secure_access": "disabled"
+}

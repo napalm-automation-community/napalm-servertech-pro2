@@ -1,0 +1,6 @@
+{
+  "out_of_balance_hysteresis": 2,
+  "apparent_power_hysteresis": 100,
+  "power_factor_hysteresis": 0.02,
+  "power_hysteresis": 100
+}

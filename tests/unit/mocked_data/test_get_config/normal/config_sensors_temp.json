@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A1",
+    "name": "Temp_Sensor_A1",
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled",
+    "thresholds_celsius": [
+      1,
+      5,
+      45,
+      50
+    ]
+  },
+  {
+    "id": "A2",
+    "name": "Temp_Sensor_A2",
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled",
+    "thresholds_celsius": [
+      1,
+      5,
+      45,
+      50
+    ]
+  }
+]

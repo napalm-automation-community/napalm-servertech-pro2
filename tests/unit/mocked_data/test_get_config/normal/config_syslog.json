@@ -1,0 +1,8 @@
+{
+  "debug_messaging": "disabled",
+  "hostname_source": "system name",
+  "port": 514,
+  "primary_host": "192.168.1.2",
+  "protocol": "rfc3164",
+  "secondary_host": "192.168.1.2"
+}

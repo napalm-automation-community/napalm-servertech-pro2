@@ -1,0 +1,17 @@
+{
+    "dhcp": "disabled",
+    "dhcp_boot_delay": "disabled",
+    "dhcp_fqdn": "enabled",
+    "dhcp_fqdn_name": "my-awesome-pdu",
+    "dhcp_static_address_fallback": "enabled",
+    "network_mode": "dual ipv6/ipv4",
+    "static_ipv4_address": "192.168.0.123",
+    "static_ipv4_gateway": "192.168.0.1",
+    "static_ipv4_subnet_mask": "255.255.255.0",
+    "static_ipv6_address": "::",
+    "static_ipv6_gateway": "::",
+    "static_ipv6_prefix": "/64",
+    "static_primary_dns": "7.7.7.7",
+    "static_secondary_dns": "7.8.9.10",
+    "zero_touch_provisioning": "enabled"
+}

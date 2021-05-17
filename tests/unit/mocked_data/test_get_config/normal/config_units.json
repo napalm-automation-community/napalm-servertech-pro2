@@ -1,0 +1,13 @@
+[
+  {
+    "id": "A",
+    "name": "Master",
+    "asset_tag": "",
+    "display_orientation": "auto",
+    "email_notifications": "enabled",
+    "identify": "disabled",
+    "outlet_display_order": "normal",
+    "outlet_sequence": "normal",
+    "snmp_trap_notifications": "enabled"
+  }
+]

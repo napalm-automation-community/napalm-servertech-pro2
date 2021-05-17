@@ -1,0 +1,15 @@
+{
+  "get_community": "snmpyay",
+  "ip_restrictions": "none",
+  "set_community": "",
+  "system_contact": "",
+  "system_name": "my-awesome-pdu",
+  "trap_community": "trap",
+  "trap_destination_primary_host": "",
+  "trap_destination_secondary_host": "",
+  "trap_error_repeat_time": 60,
+  "trap_format": "v1",
+  "v2": "enabled",
+  "v3": "disabled",
+  "v3_trap_username": ""
+}

@@ -1,0 +1,14 @@
+{
+  "bind_type": "tls",
+  "group_membership_attribute": "",
+  "group_search": "disabled",
+  "group_search_base_distinguished_name": "",
+  "port": 636,
+  "primary_host": "",
+  "search_bind_distinguished_name": "",
+  "search_bind_password_secure": "",
+  "secondary_host": "",
+  "user_membership_attribute": "",
+  "user_search_base_distinguished_name": "",
+  "user_search_filter": ""
+}

@@ -1,0 +1,5 @@
+{
+  "change_logging": "disabled",
+  "reboot_delay": 15,
+  "sequence_interval": 2
+}

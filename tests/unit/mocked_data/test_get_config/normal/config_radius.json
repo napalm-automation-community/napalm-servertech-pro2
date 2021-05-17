@@ -1,0 +1,12 @@
+{
+  "primary_server": "192.168.1.1",
+  "primary_server_port": 1812,
+  "primary_server_retries": 2,
+  "primary_server_shared_secret_secure": "BLAH",
+  "primary_server_timeout": 5,
+  "secondary_server": "192.168.1.2",
+  "secondary_server_port": 1812,
+  "secondary_server_retries": 2,
+  "secondary_server_shared_secret_secure": "BLEH",
+  "secondary_server_timeout": 5
+}

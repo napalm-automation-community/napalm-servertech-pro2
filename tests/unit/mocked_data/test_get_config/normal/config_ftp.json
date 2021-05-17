@@ -1,0 +1,11 @@
+{
+  "client_automatic_updates": "disabled",
+  "client_update_directory": "",
+  "client_update_filename": "",
+  "client_update_host": "",
+  "client_update_password_secure": "",
+  "client_update_scheduled_day": "Everyday",
+  "client_update_scheduled_hour": "12 AM",
+  "client_update_username": "",
+  "server": "disabled"
+}

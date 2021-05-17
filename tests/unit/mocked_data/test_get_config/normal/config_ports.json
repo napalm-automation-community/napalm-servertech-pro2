@@ -1,0 +1,18 @@
+[
+  {
+    "id": "COM1",
+    "baud": 9600,
+    "dsr_check": "enabled",
+    "locked": "no",
+    "remote_connection_timeout": 5,
+    "rftag_support": "enabled"
+  },
+  {
+    "id": "COM2",
+    "baud": 115200,
+    "dsr_check": "enabled",
+    "locked": "yes",
+    "remote_connection_timeout": 5,
+    "rftag_support": "disabled"
+  }
+]

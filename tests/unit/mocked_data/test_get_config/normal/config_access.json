@@ -1,0 +1,8 @@
+{
+  "access_method": "local",
+  "configuration_reset_button": "enabled",
+  "default_log_order": "newest first",
+  "local_administrator_account": "required",
+  "startup_stick": "enabled",
+  "strong_passwords": "disabled"
+}

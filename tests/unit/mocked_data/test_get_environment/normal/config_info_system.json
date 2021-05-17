@@ -1,0 +1,10 @@
+{
+    "active_users": 1,
+    "boot_info": "4.0m",
+    "build_info": "Rev 0000",
+    "firmware": "Sentry Switched PDU Version 8.0",
+    "hardware": "AAAA, 1 MHz, 1MB RAM, 1MB FLASH",
+    "nic_serial_number": "0000123",
+    "product_series": "PRO2",
+    "uptime": "12 days 3 hours 40 minutes 12 seconds"
+}

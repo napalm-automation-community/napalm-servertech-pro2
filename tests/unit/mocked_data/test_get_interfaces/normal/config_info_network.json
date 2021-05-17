@@ -1,0 +1,14 @@
+{
+  "duplex": "Full",
+  "ethernet_mac_address": "00-53-00-13-12-11",
+  "ipv4_address": "192.168.0.1",
+  "ipv4_subnet_mask": "255.255.255.0",
+  "ipv4_gateway": "192.168.0.254",
+  "ipv6_auto_config_address": "FE80::AC:AB:AA/64",
+  "link": "Up",
+  "negotiation": "Auto",
+  "primary_dns": "7.7.7.7",
+  "secondary_dns": "77.77.77.77",
+  "speed": "1000 Mbps",
+  "state": "Static IPv4"
+}

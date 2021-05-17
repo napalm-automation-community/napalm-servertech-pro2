@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A1",
+    "name": "Humid_Sensor_A1",
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled",
+    "thresholds": [
+      5,
+      10,
+      90,
+      95
+    ]
+  },
+  {
+    "id": "A2",
+    "name": "Humid_Sensor_A2",
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled",
+    "thresholds": [
+      5,
+      10,
+      90,
+      95
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "privilege_level": "0",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "1",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "2",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "3",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "4",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "5",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "6",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "7",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "8",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "9",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "10",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "11",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "12",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "13",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "14",
+    "access_level": "user",
+    "group_access": [],
+    "outlet_access": [],
+    "remote_port_access": [],
+    "system_monitor_access": "disabled"
+  },
+  {
+    "privilege_level": "15",
+    "access_level": "admin"
+  }
+]

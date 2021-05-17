@@ -1,0 +1,46 @@
+[
+  {
+    "id": "AA1",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      22.4,
+      25.6
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA2",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      22.4,
+      25.6
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA3",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      22.4,
+      25.6
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA4",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      22.4,
+      25.6
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  }
+]

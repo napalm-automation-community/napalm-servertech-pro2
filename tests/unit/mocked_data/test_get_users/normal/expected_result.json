@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "level": 15,
+    "password": "c9b79ff1841fb5cfecc66e1ea5a29b4d",
+    "sshkeys": []
+  },
+  "toto": {
+    "level": 13,
+    "password": "f29b38f160f87ae86df31cee1982066f",
+    "sshkeys": []
+  },
+  "tata": {
+    "level": 12,
+    "password": "49d02d55ad10973b7b9d0dc9eba7fdf0",
+    "sshkeys": []
+  }
+}

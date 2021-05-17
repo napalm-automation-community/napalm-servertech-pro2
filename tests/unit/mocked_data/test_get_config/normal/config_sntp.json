@@ -1,0 +1,8 @@
+{
+  "dst": "disabled",
+  "dst_end_time_zone_string": "11.1.0/2:0:0",
+  "dst_start_time_zone_string": "3.2.0/2:0:0",
+  "local_gmt_offset": "+0:00",
+  "primary_host": "2.servertech.pool.ntp.org",
+  "secondary_host": "1.servertech.pool.ntp.org"
+}

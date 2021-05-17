@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "access_level": "admin",
+    "password_secure": "c9b79ff1841fb5cfecc66e1ea5a29b4d"
+  },
+  {
+    "username": "toto",
+    "access_level": "user",
+    "password_secure": "f29b38f160f87ae86df31cee1982066f"
+  },
+  {
+    "username": "tata",
+    "access_level": "reboot only",
+    "password_secure": "49d02d55ad10973b7b9d0dc9eba7fdf0"
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "power_factor_hysteresis": 0.02,
+  "voltage_hysteresis": 2.0
+}

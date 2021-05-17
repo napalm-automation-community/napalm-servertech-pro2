@@ -1,0 +1,21 @@
+[
+  {
+    "id": "AA",
+    "name": "Master_Cord_A",
+    "active_power": 616,
+    "active_power_status": "Normal",
+    "apparent_power": 1299,
+    "apparent_power_status": "Normal",
+    "energy": 87.2,
+    "frequency": 50,
+    "power_capacity": 22080,
+    "power_factor": 0.47,
+    "power_factor_status": "Normal",
+    "power_utilized": 5.8,
+    "plug_type": "IEC 60309",
+    "state": "On",
+    "status": "Normal",
+    "three_phase_imbalance": 3.1,
+    "three_phase_imbalance_status": "Normal"
+  }
+]

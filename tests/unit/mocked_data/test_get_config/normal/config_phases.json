@@ -1,0 +1,47 @@
+[
+  {
+    "id": "AA1",
+    "email_notifications": "enabled",
+    "power_factor_thresholds": [
+      0.0,
+      0.0
+    ],
+    "snmp_trap_notifications": "enabled",
+    "voltage_thresholds": [
+      207.0,
+      218.5,
+      241.5,
+      253.0
+    ]
+  },
+  {
+    "id": "AA2",
+    "email_notifications": "enabled",
+    "power_factor_thresholds": [
+      0.0,
+      0.0
+    ],
+    "snmp_trap_notifications": "enabled",
+    "voltage_thresholds": [
+      207.0,
+      218.5,
+      241.5,
+      253.0
+    ]
+  },
+  {
+    "id": "AA3",
+    "email_notifications": "enabled",
+    "power_factor_thresholds": [
+      0.0,
+      0.0
+    ],
+    "snmp_trap_notifications": "enabled",
+    "voltage_thresholds": [
+      207.0,
+      218.5,
+      241.5,
+      253.0
+    ]
+  }
+]

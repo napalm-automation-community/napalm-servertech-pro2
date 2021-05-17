@@ -1,0 +1,9 @@
+{
+  "fans": {},
+  "temperature": {},
+  "power": {
+    "Master_Cord_A": { "status": true, "capacity": 22080.0, "output": 1280.64 }
+  },
+  "cpu": {},
+  "memory": { "available_ram": 1, "used_ram": 1 }
+}

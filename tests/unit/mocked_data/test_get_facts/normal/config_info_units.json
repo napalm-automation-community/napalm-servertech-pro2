@@ -1,0 +1,10 @@
+[
+    {
+      "id": "A",
+      "name": "Master",
+      "manufacture_date": "2021-01-01",
+      "model_number": "A1B2C3D-A1B2C3D",
+      "product_serial_number": "XXXX0000000",
+      "type": "Master"
+    }
+]

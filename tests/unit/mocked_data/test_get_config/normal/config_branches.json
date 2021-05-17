@@ -1,0 +1,68 @@
+[
+  {
+    "id": "AA1",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA2",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA3",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA4",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA5",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  },
+  {
+    "id": "AA6",
+    "current_thresholds": [
+      0.0,
+      0.0,
+      14.0,
+      16.0
+    ],
+    "email_notifications": "enabled",
+    "snmp_trap_notifications": "enabled"
+  }
+]

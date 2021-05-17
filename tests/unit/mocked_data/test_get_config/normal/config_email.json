@@ -1,0 +1,18 @@
+{
+  "from_address": "",
+  "log_authentication_messages": "disabled",
+  "log_configuration_messages": "disabled",
+  "log_event_messages": "enabled",
+  "log_power_messages": "disabled",
+  "notifications": "disabled",
+  "primary_to_address": "",
+  "secondary_to_address": "",
+  "smtp_authenticate_with": "username",
+  "smtp_authentication_method": "none",
+  "smtp_host": "",
+  "smtp_password_secure": "",
+  "smtp_port": 25,
+  "smtp_username": "",
+  "subject_id": "system id",
+  "trend_file_attachments": "disabled"
+}

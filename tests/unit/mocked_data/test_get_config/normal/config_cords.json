@@ -1,0 +1,30 @@
+[
+  {
+    "id": "AA",
+    "name": "Master_Cord_A",
+    "three_phase_imbalance_thresholds": [
+      15,
+      20
+    ],
+    "apparent_power_thresholds": [
+      0,
+      0,
+      15456,
+      17664
+    ],
+    "current_capacity": 32,
+    "email_notifications": "enabled",
+    "nominal_voltage": 230,
+    "power_factor_thresholds": [
+      0.0,
+      0.0
+    ],
+    "power_thresholds": [
+      0,
+      0,
+      15456,
+      17664
+    ],
+    "snmp_trap_notifications": "enabled"
+  }
+]

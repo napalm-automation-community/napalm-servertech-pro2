@@ -1,0 +1,9 @@
+{
+  "custom_prompt": "",
+  "session_timeout": 5,
+  "ssh": "enabled",
+  "ssh_authentication_method": "keyboard and password",
+  "ssh_port": 22,
+  "telnet": "enabled",
+  "telnet_port": 23
+}

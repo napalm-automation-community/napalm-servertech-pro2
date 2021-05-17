@@ -1,0 +1,497 @@
+{
+  "AA1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_1",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA2": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_2",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA3": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_3",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA4": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_4",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA5": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_5",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA6": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_6",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA7": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_7",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA8": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_8",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA9": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_9",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA10": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_10",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA11": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_11",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA12": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_12",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA13": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_13",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA14": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_14",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA15": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_15",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA16": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_16",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA17": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_17",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA18": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_18",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA19": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_19",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA20": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_20",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA21": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_21",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA22": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_22",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA23": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "cool-device",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA24": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "cool-device",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA25": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_25",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA26": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_26",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA27": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_27",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA28": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_28",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA29": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_29",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA30": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_30",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA31": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_31",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA32": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_32",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA33": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_33",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA34": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_34",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA35": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_35",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA36": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_36",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA37": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_37",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA38": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_38",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA39": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_39",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA40": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_40",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA41": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_41",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA42": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_42",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA43": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_43",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA44": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_44",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA45": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "cool-device",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA46": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_46",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA47": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_47",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA48": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_48",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA49": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_49",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA50": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_50",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA51": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_51",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA52": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_52",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA53": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_53",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "AA54": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "Master_Outlet_54",
+    "last_flapped": -1.0,
+    "speed": 0,
+    "mtu": 0,
+    "mac_address": ""
+  },
+  "NET": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "management",
+    "last_flapped": -1.0,
+    "speed": 1000,
+    "mtu": 1500,
+    "mac_address": "00:53:00:13:12:11"
+  }
+}
