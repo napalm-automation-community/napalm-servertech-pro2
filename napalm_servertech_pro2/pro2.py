@@ -26,7 +26,7 @@ class PRO2Driver(NetworkDriver):
     def _req(self, path, method="GET", json=None, raise_err=True):
         url = f"https://{self.hostname}/jaws{path}"
         try:
-            req = self.api.request(method, url=url, json=json)
+            req = self.api.request(method, url=url, json=json, verify=self.verify)
             req.raise_for_status()
         except requests.exceptions.HTTPError as err:
             if raise_err:
@@ -43,7 +43,9 @@ class PRO2Driver(NetworkDriver):
 
         try:
             req = self.api.request(
-                "GET", url=f"https://{self.hostname}/jaws/monitor/system"
+                "GET",
+                url=f"https://{self.hostname}/jaws/monitor/system",
+                verify=self.verify,
             )
             req.raise_for_status()
         except requests.exceptions.ConnectionError:
