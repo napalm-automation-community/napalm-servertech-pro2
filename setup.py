@@ -36,4 +36,6 @@ setup(
     url="https://github.com/napalm-automation-community/napalm-servertech-pro2",
     include_package_data=True,
     install_requires=reqs,
+    use_scm_version=True,
+    setup_requires=["setuptools_scm"],
 )
