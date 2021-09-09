@@ -8,7 +8,10 @@ def test_convert_uptime():
     uptime = "11 days 4 hours 8 minutes 6 seconds"
     assert utils.convert_uptime(uptime) == 965286
 
-    uptime = "0 days 0 hours 0 minutes 1 seconds"
+    uptime = "133 days 1 hour 12 minutes 15 seconds"
+    assert isinstance(utils.convert_uptime(uptime), int)
+
+    uptime = "0 days 0 hours 0 minutes 1 second"
     assert utils.convert_uptime(uptime) == 1
 
     with pytest.raises(ValueError):

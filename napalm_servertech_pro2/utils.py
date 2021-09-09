@@ -4,8 +4,8 @@ import re
 def convert_uptime(uptime):
     """Converts a ServerTech uptime string to a number of seconds."""
     time_regex = (
-        r"^(?P<days>\d+) days (?P<hours>\d+) hours"
-        r" (?P<minutes>\d+) minutes (?P<seconds>\d+) seconds$"
+        r"^(?P<days>\d+) days? (?P<hours>\d+) hours?"
+        r" (?P<minutes>\d+) minutes? (?P<seconds>\d+) seconds?$"
     )
     m = re.match(
         time_regex,
