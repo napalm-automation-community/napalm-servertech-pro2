@@ -54,3 +54,14 @@ LOCAL_USER_LEVELS = {
     "power user": 14,
     "admin": 15,
 }
+
+SUPPORTED_OUTLET_ACTIONS = ["off", "on", "reboot"]
+
+SUPPORTED_RESTART_ACTIONS = [
+    "factory",
+    "factory keep network",
+    "new firmware",
+    "new ssh keys",
+    "new x509 certificate",
+    "normal",
+]

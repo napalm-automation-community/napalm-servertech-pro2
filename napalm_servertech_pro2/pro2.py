@@ -7,8 +7,17 @@ from napalm.base.exceptions import ConnectionException
 from netaddr import IPNetwork
 from requests.auth import HTTPBasicAuth
 
-from napalm_servertech_pro2.constants import CONFIG_ITEMS, LOCAL_USER_LEVELS
-from napalm_servertech_pro2.utils import convert_uptime, parse_hardware
+from napalm_servertech_pro2.constants import (
+    CONFIG_ITEMS,
+    LOCAL_USER_LEVELS,
+    SUPPORTED_OUTLET_ACTIONS,
+    SUPPORTED_RESTART_ACTIONS,
+)
+from napalm_servertech_pro2.utils import (
+    convert_uptime,
+    parse_hardware,
+    validate_actions,
+)
 
 
 class PRO2Driver(NetworkDriver):
@@ -33,7 +42,14 @@ class PRO2Driver(NetworkDriver):
                 raise err
             else:
                 return {"err": str(err)}
-        return req.json()
+        if "application/json" in req.headers.get("Content-Type"):
+            return req.json()
+        else:
+            return {
+                "status": "success",
+                "status_code": req.status_code,
+                "content": req.text,
+            }
 
     def open(self):
         """Open a connection to the device."""
@@ -199,3 +215,32 @@ class PRO2Driver(NetworkDriver):
             }
             for user in users
         }
+
+    def set_outlet(self, outlet_id, action):
+        """
+        Change the status of an outlet
+
+        :param outlet_id: a string
+        :param action: a string (values can be: on, off, reboot)
+        :return: a dict
+        """
+        validate_actions(action, SUPPORTED_OUTLET_ACTIONS)
+
+        outlet = self._req(
+            f"/control/outlets/{outlet_id}", "PATCH", json={"control_action": action}
+        )
+
+        return outlet
+
+    def restart(self, action):
+        """
+        Restarts the PDU
+
+        :param action: a string (see SUPPORTED_RESTART_ACTIONS for valid values)
+        :return: a dict
+        """
+        validate_actions(action, SUPPORTED_RESTART_ACTIONS)
+
+        restart = self._req("/restart", "PATCH", json={"action": action})
+
+        return restart
