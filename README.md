@@ -15,6 +15,13 @@ Please find below the list of supported getters:
 * get_interfaces_ip (will only return the `NET` interface management address)
 * get_users
 
+## Additional features
+
+The default NAPALM methods don't cover everything we can do on the PDUs (they actually do via CLI, but the driver does not control the PDUs via the CLIs yet). In order to perform actions such as changing the status of an outlet or resetting a PDU, new methods are implemented:
+
+* set_outlet
+* restart
+
 ## Contributing
 Please read [CONTRIBUTING](CONTRIBUTING) for details on our process for submitting issues and requests.
 

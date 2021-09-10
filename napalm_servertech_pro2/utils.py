@@ -35,3 +35,13 @@ def parse_hardware(hardware_string):
         "ram": int(m.group("ram")),
         "flash": int(m.group("flash")),
     }
+
+
+def validate_actions(action, supported_actions):
+    """Ensures the inputed action is supported, raises an exception otherwise."""
+    if action not in supported_actions:
+        raise ValueError(
+            f'Action "{action}" is not supported.'
+            " the list of valid actions is: {}".format(", ".join(supported_actions))
+        )
+    return True

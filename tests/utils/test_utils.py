@@ -26,3 +26,11 @@ def test_parse_hardware():
         "ram": 2048,
         "flash": 2048,
     }
+
+
+def test_validate_actions():
+    supported_actions = ["foo", "bar"]
+    assert utils.validate_actions("foo", supported_actions) is True
+
+    with pytest.raises(ValueError):
+        utils.validate_actions("oof", supported_actions)

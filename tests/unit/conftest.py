@@ -6,6 +6,7 @@ from builtins import super
 import pytest
 from napalm.base.test import conftest as parent_conftest
 from napalm.base.test.double import BaseTestDouble
+from requests.models import HTTPError
 from napalm_servertech_pro2 import pro2
 
 
@@ -50,21 +51,47 @@ class PatchedPRO2Driver(pro2.PRO2Driver):
 class FakePRO2Api(BaseTestDouble):
     """ServerTech fake API."""
 
+    REQUESTS = {
+        "control/outlets/XX99": {
+            "headers": {"Content-Type": "text/html"},
+            "status_code": 404,
+        }
+    }
+
     def request(self, method, **kwargs):
-        filename = f'{self.sanitize_text(kwargs["url"].split("/jaws/")[1])}.json'
-        path = self.find_file(filename)
-        return FakeRequest(method, path)
+        address = kwargs["url"].split("/jaws/")[1]
+        if self.REQUESTS.get(address):
+            return FakeRequest(
+                method,
+                address,
+                self.REQUESTS[address]["headers"],
+                self.REQUESTS[address]["status_code"],
+            )
+        else:
+            filename = f"{self.sanitize_text(address)}.json"
+            path = self.find_file(filename)
+            headers = {
+                "Content-Type": "application/json" if method == "GET" else "text/html"
+            }
+            status_code = 200 if method == "GET" else 204
+            return FakeRequest(method, path, headers, status_code)
 
 
 class FakeRequest:
     """A fake API request."""
 
-    def __init__(self, method, path):
+    def __init__(self, method, path, headers, status_code):
         self.method = method
         self.path = path
+        self.headers = headers
+        self.status_code = status_code
+        self.text = ""
 
     def raise_for_status(self):
-        return True
+        if self.status_code >= 400:
+            raise HTTPError
+        else:
+            return True
 
     def json(self):
         with open(self.path, "r") as file:
