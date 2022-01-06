@@ -45,3 +45,12 @@ def validate_actions(action, supported_actions):
             " the list of valid actions is: {}".format(", ".join(supported_actions))
         )
     return True
+
+
+def server_version(headers):
+    """Extract the firmware version from HTTP headers."""
+    version_re = re.compile(r"ServerTech-AWS/v(?P<version>\d+\.\d+\w+)")
+    if headers.get("Server"):
+        match = version_re.match(headers["Server"])
+        if match:
+            return match.group("version")

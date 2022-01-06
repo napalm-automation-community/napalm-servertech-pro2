@@ -34,3 +34,15 @@ def test_validate_actions():
 
     with pytest.raises(ValueError):
         utils.validate_actions("oof", supported_actions)
+
+
+def test_server_version():
+    headers = {"Server": "ServerTech-AWS/v8.0k"}
+    assert utils.server_version(headers) == "8.0k"
+
+    headers = {"Server": "lol"}
+    assert utils.server_version(headers) is None
+
+    assert "8.0v" > "8.0m"
+
+    assert "8.0k" < "8.0m"
