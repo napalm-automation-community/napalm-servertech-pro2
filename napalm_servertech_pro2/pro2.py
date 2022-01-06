@@ -17,6 +17,7 @@ from napalm_servertech_pro2.utils import (
     convert_uptime,
     parse_hardware,
     validate_actions,
+    server_version,
 )
 
 
@@ -67,6 +68,12 @@ class PRO2Driver(NetworkDriver):
         except requests.exceptions.ConnectionError:
             self.api = None
             raise ConnectionException
+
+        version = server_version(req.headers)
+        if version and version < "8.0m":
+            raise EnvironmentError(
+                f"This device is running {version}, while the API was released in 8.0m"
+            )
 
     def close(self):
         self.api.close()
