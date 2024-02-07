@@ -1,5 +1,5 @@
-black==21.5b1
-pylama==7.7.1
-pylint==2.8.2
-pytest==6.2.4
-tox==3.23.1
+black==24.1.1
+pylama==8.4.1
+pylint==3.0.3
+pytest==7.3.1
+tox==4.12.1

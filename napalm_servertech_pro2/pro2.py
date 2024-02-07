@@ -1,4 +1,5 @@
 """NAPALM driver for ServerTech PRO2 PDUs"""
+
 import json
 
 import requests
