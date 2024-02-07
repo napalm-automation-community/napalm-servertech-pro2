@@ -13,7 +13,7 @@ def convert_uptime(uptime):
     )
     if not m:
         raise ValueError("uptime string was not recognized: regex did not match")
-    return (
+    return float(
         int(m.group("days")) * 86400
         + int(m.group("hours")) * 3600
         + int(m.group("minutes")) * 60
