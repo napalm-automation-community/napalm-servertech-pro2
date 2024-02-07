@@ -175,7 +175,7 @@ class PRO2Driver(NetworkDriver):
             {
                 "id": "NET",
                 "name": "management",
-                "speed": int(net["speed"].split(" ")[0]),
+                "speed": float(net["speed"].split(" ")[0]),
                 "status": "Normal" if net["link"] == "Up" else False,
                 "state": "On",
                 "mac_address": net["ethernet_mac_address"].replace("-", ":"),
@@ -189,7 +189,7 @@ class PRO2Driver(NetworkDriver):
                 "is_enabled": True if port["state"] == "On" else False,
                 "description": port["name"],
                 "last_flapped": -1.0,
-                "speed": port.get("speed", 0),
+                "speed": port.get("speed", 0.0),
                 "mtu": port.get("mtu", 0),
                 "mac_address": port.get("mac_address", ""),
             }
