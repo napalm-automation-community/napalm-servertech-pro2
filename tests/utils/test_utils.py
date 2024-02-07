@@ -6,13 +6,13 @@ from napalm_servertech_pro2 import utils
 
 def test_convert_uptime():
     uptime = "11 days 4 hours 8 minutes 6 seconds"
-    assert utils.convert_uptime(uptime) == 965286
+    assert utils.convert_uptime(uptime) == 965286.0
 
     uptime = "133 days 1 hour 12 minutes 15 seconds"
-    assert isinstance(utils.convert_uptime(uptime), int)
+    assert isinstance(utils.convert_uptime(uptime), float)
 
     uptime = "0 days 0 hours 0 minutes 1 second"
-    assert utils.convert_uptime(uptime) == 1
+    assert utils.convert_uptime(uptime) == 1.0
 
     with pytest.raises(ValueError):
         utils.convert_uptime("hello")
