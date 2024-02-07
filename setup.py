@@ -13,7 +13,7 @@ __author__ = "Antoine Meillet <antoine.meillet@gmail.com>"
 
 setup(
     name="napalm-servertech-pro2",
-    version="0.1.0",
+    version="0.1.4",
     packages=find_packages(),
     author="Antoine Meillet",
     author_email="antoine.meillet@gmail.com",
